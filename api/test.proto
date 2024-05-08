@@ -3,6 +3,6 @@ syntax = "proto3";
 package api;
 
 message A {
-  string field = 1;
+  string field = 1 [deprecated = true];
   string another_field = 2;
 }

@@ -3,7 +3,7 @@ version: v1
 name: buf.build/dragonator/buf-breaking-removing-deprecated-field
 breaking:
   use:
-    - FILE
+    - PACKAGE
 lint:
   allow_comment_ignores: true
   use:
